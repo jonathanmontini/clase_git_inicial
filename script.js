@@ -12,7 +12,7 @@ const calculatePrice = (name, price) => {
     
     let total = shippingPrice + price
 
-    console.log(`El producto ${name} cuesta $${price}. Su costo de envío es de ${shippingPrice}. Por lo tanto, el precio final es de ${total}`)
+    console.log(`El producto ${name} cuesta $${price}. Su costo de envío es de $${shippingPrice}. Por lo tanto, el precio final es de ${total}`)
 }
 
 calculatePrice('Macbook', 2500)
